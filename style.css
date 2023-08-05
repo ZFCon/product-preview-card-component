@@ -28,6 +28,8 @@ body {
 .card {
     display: flex;
     overflow: hidden;
+    min-width: 25em;
+    max-width: 100em;
 
     background-color: white;
     border-radius: 20px;
@@ -53,15 +55,16 @@ body {
 
 .card .card-body .card-body-brand {
     color: var(--grayish-blue);
-    font-size: 1.5em;
+    font-size: 2rem;
+    padding: 1em 0;
 }
 
 .card .card-body .card-body-title {
-    font-size: 2em;
+    font-size: 3rem;
 }
 
 .card .card-body .card-body-description {
-    font-size: 2em;
+    font-size: 2rem;
     color: var(--grayish-blue);
     padding-bottom: 2em;
 }
@@ -76,11 +79,11 @@ body {
 }
 
 .card .card-body .card-body-price .new-price {
-    font-size: 4em;
+    font-size: 4rem;
 }
 
 .card .card-body .card-body-price .old-price {
-    font-size: 2em;
+    font-size: 2rem;
 }
 
 .btn {
